@@ -29,15 +29,15 @@ $(document).ready(function() {
 
       $(".badges-box").append("<button id='show-all' class='btn btn-info'>See all badges</button>");
 
-      $("#show-all").click(function() {
-        $( ".badge-image-list img:gt(5)").toggle(0, "linear", function() {
-          if($("#show-all").html() == "See all badges") {
-            $("#show-all").html("Hide badges");
-          } else {
-            $("#show-all").html("See all badges");
-          };
-        });
-      });
+      //$("#show-all").click(function() {
+        //$( ".badge-image-list img:gt(5)").toggle(0, "linear", function() {
+          //if($("#show-all").html() == "See all badges") {
+            //$("#show-all").html("Hide badges");
+          //} else {
+            //$("#show-all").html("See all badges");
+          //};
+        //});
+      //});
     };
   });
 });
